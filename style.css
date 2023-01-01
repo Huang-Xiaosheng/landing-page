@@ -132,3 +132,23 @@ button {
   padding-right: 64px;
 }
 
+.call-to-action {
+  width: 1020px;
+  box-sizing: border-box;
+  margin: 120px auto;
+  display: flex;
+  align-items: center;
+  padding: 50px 120px;
+  justify-content: space-between;
+}
+.call-to-action h2 {
+  margin: 0;
+}
+.call-to-action p {
+  margin: 10px 0 0;
+  font-weight: 300;
+}
+.call-to-action button {
+  border: 2px solid white;
+  flex-shrink: 0;
+}
